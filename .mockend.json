@@ -1,10 +1,7 @@
 {
   "Transaction": {
     "transaction_id": {
-      "int": {
-        "min": 1000000,
-        "max": 10000000
-      }
+      "regexp": "[A-Z][a-z]{5,10}"
     },
     "type": {
       "string": ["inbound", "outbound"]
