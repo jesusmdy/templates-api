@@ -2,8 +2,8 @@
   "Transaction": {
     "transaction_id": {
       "int": {
-        "min": 1000000,
-        "max": 10000000
+        "min": 10000000000,
+        "max": 100000000000
       }
     },
     "type": {
